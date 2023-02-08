@@ -1,2 +1,1 @@
-#!/bin/bash
-my first code
+Task 0. Where am I?
