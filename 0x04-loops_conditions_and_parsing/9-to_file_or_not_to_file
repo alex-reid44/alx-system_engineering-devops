@@ -1,19 +1,19 @@
 #!/usr/bin/env bash
-# This script is displaying script that gives you information about the holbertonschool file.
-if [ -e "Bestschool" ]
+# This script is displaying script that gives you information about the bestschool file.
+if [ -e "bestschool" ]
 then
-  echo "Bestschool file exists"
-  if [ -s "Bestschool" ]
+  echo "bestschool file exists"
+  if [ -s "bestschool" ]
     then
-      echo "Bestschool file is not empty"
+      echo "bestschool file is not empty"
     else
-      echo "Bestschool file is empty"
+      echo "bestschool file is empty"
   fi
 
-  if [ -f "Bestschool" ]
+  if [ -f "bestschool" ]
   then
-    echo "Bestschool is a regular file"
+    echo "bestschool is a regular file"
   fi
   else
-    echo "Bestschool file does not exist"
+    echo "bestschool file does not exist"
 fi
